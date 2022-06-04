@@ -43,6 +43,7 @@ button:active{
   margin: 0;
   border: none;
   text-align: center;
+  position: relative;
 }
 
 .middle-container{
@@ -80,4 +81,32 @@ button:active{
 .menu{
   align-content: flex-start;
   transition: 1s ease;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+}
+
+.menu-button{
+  float:left;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 30%;
+  top: 30%;
+  opacity: 0.6;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+  bottom: 40%;
+  opacity: 0.6;
+}
+
+.mountain-image{
+  position: absolute;
+  bottom: 0;
+  opacity: 0.4;
 }
