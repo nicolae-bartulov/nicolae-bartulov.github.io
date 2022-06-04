@@ -1,0 +1,83 @@
+body{
+  margin:0;
+}
+
+h1{
+  margin: 0;
+  color: #3A3845;
+
+}
+
+p{
+  color: #3A3845;
+}
+
+button{
+  margin: 4px;
+  padding: 8px;
+  border-radius: 20%;
+  transition: border-radius 1s;
+  opacity: 0.4;
+  background-color: #C69B7B;
+}
+
+button:hover{
+  border-radius: 0;
+  opacity: 1;
+}
+
+button:active{
+  color: #3A3845;
+  opacity: 0.6;
+}
+
+.hasher{
+  background-color: #3A3845;
+  border-color: #3A3845;
+  transition: 1s ease;
+}
+
+.top-container{
+  background-color: #F7CCAC;
+  height: 500px;
+  margin: 0;
+  border: none;
+  text-align: center;
+}
+
+.middle-container{
+  background-color: #C69B7B;
+  height: 500px;
+}
+
+.bottom-container{
+  background-color: #F7CCAC;
+  height: 500px;
+}
+
+.center{
+  margin:0 auto;
+  position: relative;
+  width: 200px;
+  padding: 10px;
+}
+
+.profile-picture{
+  border-radius: 50%;
+  width: 60%;
+  transition: 1s ease;
+}
+
+.profile-picture:hover {
+  border-radius:40%;
+  width: 70%;
+}
+
+.center:hover .hasher{
+  border-top-width: 8px;
+}
+
+.menu{
+  align-content: flex-start;
+  transition: 1s ease;
+}
